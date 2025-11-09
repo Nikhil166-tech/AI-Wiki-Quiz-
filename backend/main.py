@@ -21,7 +21,8 @@ app = FastAPI(
 origins = [
     "http://localhost:5173",  # Your Vite/React development server
     "http://127.0.0.1:5173",  # Alternative localhost address
-]
+    "https://Nikhil166-tech.github.io/AI-Wiki-Quiz-Generator"
+    ]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
