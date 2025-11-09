@@ -1,0 +1,13 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+
+# Dependencies (Node)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Sensitive Data / Local Files
+*.env
+*.db
+sample_data/
